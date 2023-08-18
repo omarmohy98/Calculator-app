@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo URL]()
-- Live Site URL: [Live site URL]()
+- Solution URL: [Repo URL](https://github.com/omarmohy98/Calculator-app)
+- Live Site URL: [Live site URL](https://calculator-app-0h1e.onrender.com)
 
 ## My process
 
