@@ -1,0 +1,54 @@
+:root {
+  /* Backgrounds */
+  --light-gray: hsl(0, 0%, 90%); /*main background*/
+  --grayish-red: hsl(0, 5%, 81%); /*toggle background, keypad background*/
+  --very-light-gray: hsl(0, 0%, 93%); /*screen background*/
+  /* Keys */
+  --dark-moderate-cyan: hsl(185, 42%, 37%); /*key background*/
+  --very-dark-cyan: hsl(185, 58%, 25%); /*key shadow*/
+  --orange: hsl(25, 98%, 40%); /*key background, toggle*/
+  --dark-orange: hsl(25, 99%, 27%); /*key shadow*/
+  --light-grayish-yellow: hsl(45, 7%, 89%); /*key background*/
+  --dark-grayish-orange: hsl(35, 11%, 61%); /*key shadow*/
+  /* Text */
+  --very-dark-grayish-yellow: hsl(60, 10%, 19%);
+  --white: hsl(0, 0%, 100%); /*text*/
+}
+
+body {
+  background-color: var(--light-gray);
+}
+
+.theme-mode,
+.diplay,
+button {
+  color: var(--very-dark-grayish-yellow);
+}
+
+.theme-selector input,
+.inputs {
+  background: var(--grayish-red);
+}
+
+input[type="range"]::-webkit-slider-thumb,
+.special-2 {
+  background-color: var(--orange) !important;
+}
+
+.diplay {
+  background-color: var(--very-light-gray);
+}
+
+.inputs button {
+  background-color: var(--light-grayish-yellow);
+  box-shadow: 0 4px 1px 0 var(--dark-grayish-orange);
+}
+
+.special-1 {
+  background-color: var(--dark-moderate-cyan) !important;
+  box-shadow: 0 4px 1px 0 var(--very-dark-cyan) !important;
+}
+
+.special-2 {
+  box-shadow: 0 4px 1px 0 var(--dark-orange) !important;
+}

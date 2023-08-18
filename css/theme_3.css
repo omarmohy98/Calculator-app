@@ -1,0 +1,55 @@
+:root {
+  /* Backgrounds */
+  --very-dark-violet1: hsl(268, 75%, 9%); /*main background*/
+  --very-dark-violet2: hsl(
+    268,
+    71%,
+    12%
+  ); /*toggle background, keypad background, screen background*/
+  /* Keys */
+  --dark-violet: hsl(281, 89%, 26%); /*key background*/
+  --vivid-magenta: hsl(285, 91%, 52%); /*key shadow*/
+  --pure-cyan: hsl(176, 100%, 44%); /*key background, toggle*/
+  --soft-cyan: hsl(177, 92%, 70%); /*key shadow*/
+  --very-dark-violet3: hsl(268, 47%, 21%); /*key background*/
+  --dark-magenta: hsl(290, 70%, 36%); /*key shadow*/
+  /* Text */
+  --light-yellow: hsl(52, 100%, 62%);
+  --very-dark-blue: hsl(198, 20%, 13%);
+  --white: hsl(0, 0%, 100%); /*text*/
+}
+
+body {
+  background-color: var(--very-dark-violet1);
+}
+
+.theme-mode,
+.diplay,
+button {
+  color: var(--light-yellow);
+}
+
+.theme-selector input,
+.inputs,
+.diplay {
+  background: var(--very-dark-violet2);
+}
+
+input[type="range"]::-webkit-slider-thumb,
+.special-2 {
+  background-color: var(--pure-cyan) !important;
+}
+
+.inputs button {
+  background-color: var(--dark-violet);
+  box-shadow: 0 4px 1px 0 var(--vivid-magenta);
+}
+
+.special-1 {
+  background-color: var(--very-dark-violet3) !important;
+  box-shadow: 0 4px 1px 0 var(--dark-magenta) !important;
+}
+
+.special-2 {
+  box-shadow: 0 4px 1px 0 var(--vivid-magenta) !important;
+}

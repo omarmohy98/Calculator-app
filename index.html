@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/theme_1.css" />
+  </head>
+  <body>
+    <main>
+      <div class="theme-mode">
+        <h1>calc</h1>
+        <div class="theme-mode-selection">
+          <p>THEME</p>
+          <div class="theme-selector">
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+            </ul>
+            <input type="range" step="1" max="2" value="0" />
+          </div>
+        </div>
+      </div>
+      <div class="diplay"></div>
+      <div class="inputs">
+        <button class="w-20">7</button>
+        <button class="w-20">8</button>
+        <button class="w-20">9</button>
+        <button class="w-20 special-1" data-function="delete">DEL</button>
+        <button class="w-20">4</button>
+        <button class="w-20">5</button>
+        <button class="w-20">6</button>
+        <button class="w-20">+</button>
+        <button class="w-20">1</button>
+        <button class="w-20">2</button>
+        <button class="w-20">3</button>
+        <button class="w-20">-</button>
+        <button class="w-20">.</button>
+        <button class="w-20">0</button>
+        <button class="w-20">/</button>
+        <button class="w-20">x</button>
+        <button class="w-50 special-1" data-function="reset">RESET</button>
+        <button class="w-50 special-2" data-function="equal">=</button>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
